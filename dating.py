@@ -37,7 +37,7 @@ def main():
         else:
             print("You cannot date my grandchild")
 
-    except ValueError:
+    except Exception:
         print("Invalid input. Please enter 'y' or 'n' only.")
 
 
